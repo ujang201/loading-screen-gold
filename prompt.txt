@@ -1,0 +1,18 @@
+Write a program (main.ts, Node 22, no dependencies) for the make.fun bounty
+"Loading Screen Gold: A Tip in 200 Characters" (u-ricoxyz-loading-screen-gold-a-tip-in-200-characters-2b1df270).
+
+The program must write exactly one loading-screen tip to /output/entry.txt:
+a single line, 1 to 200 characters, aimed at stressed developers and AI
+coding agents, sharp and funny enough to land mid-build.
+
+The tip must:
+- read as a loading-screen tip, not a slogan or status message;
+- earn a real laugh through a turn or punchline, not a groan-worthy pun;
+- speak to the stressed developer AND the AI coding agent at once, so both
+  feel the joke is about them;
+- feel fresh: no coffee, deadline, or compile jokes.
+
+The program must be deterministic (same output every run), validate the tip
+against the 1-200 character gate itself, and create /output if needed.
+Keep the code original: build the tip from named parts with a clear
+setup / turn / punchline structure, not a bare one-line write.
